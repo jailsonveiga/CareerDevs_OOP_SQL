@@ -9,5 +9,8 @@ public class main {
         Class1 ch = new Class1();
         System.out.println(ch.chars);
 
+        Class1 pHi = new Class1();
+        pHi.printHi();
+
     }
 }

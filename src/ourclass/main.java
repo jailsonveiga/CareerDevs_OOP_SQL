@@ -12,5 +12,8 @@ public class main {
         Class1 pHi = new Class1();
         pHi.printHi();
 
+        Class2 y = new Class2();
+        System.out.println(y.y);
+
     }
 }

@@ -9,4 +9,9 @@ public class Contractor extends Employee {
         this.workingHours = workingHours;
     }
 
+    @Override
+    public int calculateSalary() {
+        return getPaymentPerHour() * workingHours;
+    }
+
 }

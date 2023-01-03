@@ -2,8 +2,13 @@ package project_jay;
 
 public class Employee {
 
-    // add properties or fields
+
     private String name;
     private int paymentPerHour;
+
+    public Employee(String name, int paymentPerHour) {
+        this.name = name;
+        this.paymentPerHour = paymentPerHour;
+    }
 
 }
